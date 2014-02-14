@@ -1,7 +1,7 @@
 Summary: A file compression and packaging utility compatible with PKZIP
 Name: zip
 Version: 3.0
-Release: 2%{?dist}
+Release: 1.1%{?dist}
 License: BSD
 Group: Applications/Archiving
 Source: http://downloads.sourceforge.net/infozip/zip30.tar.gz
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/zipsplit.1*
 
 %changelog
-* Fri Jul  8 2011 Mike Adams <shalkie@gooseproject.org - 3.0-2
+* Fri Jul  8 2011 Mike Adams <shalkie@gooseproject.org - 3.0-1.1
 - Rebuild for GoOSe Linux 6 
 
 * Fri Nov 13 2009 Karel Klic <kklic@redhat.com> - 3.0-1
